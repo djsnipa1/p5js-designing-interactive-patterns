@@ -18,44 +18,51 @@ The first link also has _resource_ and _reference_ sections at the end of the pa
 
 You can find all the code for the different examples on this [github repository](https://github.com/b2renger/p5js-designing-interactive-patterns)
 
-## [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)Content
+## Content
 
--   [The big differences between processing and p5js](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Les-grandes-differences-entre-processing-et-p5js)
-    -   [Theoretical differences](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Les-differences-theoriques)
-    -   [In practice](https://github.com/djsnipa1/p5js-designing-interactive-patterns#En-pratique)
--   [A responsive web page - Draw a circle that stays in the middle](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Une-page-web-responsive---Dessiner-un-cercle-qui-reste-au-milieu)
--   [Draw a grid - long live for loops!](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Dessiner-une-grille---vive-les-boucles-for-!)
-    -   [First grid](https://github.com/djsnipa1/p5js-designing-interactive-patterns#premiere-grille)
-    -   [A grid of circles](https://github.com/djsnipa1/p5js-designing-interactive-patterns#une-grille-de-cercles)
-        -   [a little interaction: a grid with different granularities](https://github.com/djsnipa1/p5js-designing-interactive-patterns#un-peu-d'interaction-changer-la-taille-des-cases)
-        -   [circles centered in our boxes](https://github.com/djsnipa1/p5js-designing-interactive-patterns#des-cercles-centres-dans-nos-cases) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_01_b_responsive_grid/)
-        -   [a grid centered in our page](https://github.com/djsnipa1/p5js-designing-interactive-patterns#une-grille-centree-dans-notre-page) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_01_c_responsive_grid/)
--   [A little interaction with the mouse](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Un-peu-d'interaction-avec-la-souris)
-    -   [A grid of circles that change size depending on mouse position](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Une-grille-de-cercles-qui-changent-de-taille-en-fonction-de-la-position-de-la-souris) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_02_a_interactive_grid/)
-    -   [A grid of concentric circles](https://github.com/djsnipa1/p5js-designing-interactive-patterns#une-grille-de-cercles-concentriques) - [**DEMO**](https://github.com/djsnipa1/p5js-designing-interactive-patterns/blob/master)
-    -   [A grid of interactive lines](https://github.com/djsnipa1/p5js-designing-interactive-patterns#une-grille-de-lignes-interactives) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_02_d_triple-for-lines/)
-    -   [A grid of concentric circles 2](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Une-grille-de-cercles-concentriques-2) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_02_c_triple-for/)
--   [Write conditions with if()](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Ecrire-des-conditions-avec-if())
-    -   [if - else and random() - randomSeed()](https://github.com/djsnipa1/p5js-designing-interactive-patterns#if-else-et-random()---randomSeed()) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_03_a_if/)
-    -   [Variation 1 with nested if](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Variation-1-avec-if-imbriques) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_03_b_if/)
-    -   [Variation 2 with if - else if](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Variation-2-avec-if---else-if) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_03_c_if/)
--   [Make some Noise!](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Make-some-Noise-!)
-    -   [one-dimensional noise](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-1-dimension) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_04_a_noise-1D/)
-    -   [two-dimensional noise](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-2-dimensions) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_04_b_noise-2D/)
-    -   [three-dimensional noise](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-3-dimensions) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_04_c_noise-3D/)
-    -   [noise and polar coordinates](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-et-coordonnees-polaires) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_04_d_noise-circle-rad-angle/)
-    -   [noise and symmetries](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-et-symetries) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_04_e_noise-symetric/)
-    -   [symmetrical noise and polar coordinates](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Noise-symetrique-et-coordonnees-polaires) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_04_f_noise-circle-symetric/)
-    -   [asymmetric noise and polar coordinates](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Noise-asymetrique-et-coordonnees-polaires) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_04_g_noise-circle-asymetric/)
-    -   [interlude unknown pleasures](https://github.com/djsnipa1/p5js-designing-interactive-patterns#interlude-unknown-pleasures) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_04_h_joydivision/)
--   [rotate() and translate()](https://github.com/b2renger/p5js-designing-interactive-patterns#rotate-translate)
-    -   [a basic example](https://github.com/djsnipa1/p5js-designing-interactive-patterns#un-exemple-basique) - [**DEMO**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_05_a_rotate/)
-    -   [use of fonts](https://github.com/djsnipa1/p5js-designing-interactive-patterns#utilisation-de-fonts) - [**DEMO1**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_05_b_rotate_typo_reflection/) - [**DEMO2**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_05_c_rotate_typo_polar/)
--   [Drawing in layers](https://github.com/djsnipa1/p5js-designing-interactive-patterns#Dessiner-dans-des-calques) - [**DEMO 1**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_06_a_layers_half-cirdles/) - [**DEMO 2**](https://b2renger.github.io/p5js-designing-interactive-patterns/sketch_06_b_layers_supperpositions/index.html)
+<!-- TOC -->
 
-## [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#les-grandes-differences-entre-processing-et-p5js)The big differences between processing and p5js
+- [p5js-designing-interactive-patterns](#p5js-designing-interactive-patterns)
+  - [Content](#content)
+  - [The big differences between processing and p5js](#the-big-differences-between-processing-and-p5js)
+    - [Theoretical differences](#theoretical-differences)
+    - [In practice](#in-practice)
+  - [A responsive web page - Draw a circle that stays in the middle](#a-responsive-web-page---draw-a-circle-that-stays-in-the-middle)
+  - [Draw a grid - long live for loops!](#draw-a-grid---long-live-for-loops)
+    - [First grid](#first-grid)
+    - [A grid of circles](#a-grid-of-circles)
+      - [a little interaction change the size of the boxes](#a-little-interaction-change-the-size-of-the-boxes)
+      - [circles centers in our boxes](#circles-centers-in-our-boxes)
+      - [a grid centered in our page](#a-grid-centered-in-our-page)
+  - [A little interaction with the mouse](#a-little-interaction-with-the-mouse)
+    - [A grid of circles that change size depending on mouse position](#a-grid-of-circles-that-change-size-depending-on-mouse-position)
+    - [A grid of concentric circles](#a-grid-of-concentric-circles)
+    - [A grid of interactive lines](#a-grid-of-interactive-lines)
+    - [A grid of concentric circles 2](#a-grid-of-concentric-circles-2)
+  - [Write conditions with if()](#write-conditions-with-if)
+    - [if-else and random() - randomSeed()](#if-else-and-random---randomseed)
+    - [Variation 1 with nested if](#variation-1-with-nested-if)
+    - [Variation 2 with if - else if](#variation-2-with-if---else-if)
+  - [Make some Noise!](#make-some-noise)
+    - [noise 1 dimension](#noise-1-dimension)
+    - [noise 2 dimensions](#noise-2-dimensions)
+    - [noise 3 dimensions](#noise-3-dimensions)
+    - [Noise and polar coordinates](#noise-and-polar-coordinates)
+    - [Noise and symmetries](#noise-and-symmetries)
+    - [Symmetric noise and polar coordinates](#symmetric-noise-and-polar-coordinates)
+    - [Asymmetric noise and polar coordinates](#asymmetric-noise-and-polar-coordinates)
+    - [Interlude unknown pleasures](#interlude-unknown-pleasures)
+  - [Rotate-translate](#rotate-translate)
+    - [A basic example](#a-basic-example)
+    - [Using fonts](#using-fonts)
+  - [Drawing in layers](#drawing-in-layers)
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#les-differences-theoriques)Theoretical differences
+<!-- /TOC -->
+---
+
+## The big differences between processing and p5js
+
+### Theoretical differences
 
 I advise you to start by reading the [basic principles](https://github.com/b2renger/Introduction_p5js#les-principes-de-bases) allowing you to understand how a web page is structured between html file and javascript file(s) and which sets out the fundamental principles of processing and therefore of p5js.
 
@@ -72,7 +79,7 @@ In practice we will focus on a subpart of javascript with the discovery of p5js,
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#en-pratique)In practice
+### In practice
 
 1- Types: more _float_ etc. but _let_
 
@@ -90,7 +97,7 @@ We will now focus more directly on the code and the implementation of our first 
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-## [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#une-page-web-responsive---dessiner-un-cercle-qui-reste-au-milieu)A responsive web page - Draw a circle that stays in the middle
+## A responsive web page - Draw a circle that stays in the middle
 
 Everything is said in the title !
 
@@ -149,9 +156,9 @@ If we want our designs / patterns to be responsive and keep a similar appearance
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-## [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#dessiner-une-grille---vive-les-boucles-for-)Draw a grid - long live for loops!
+## Draw a grid - long live for loops!
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#premiere-grille)First grid
+### First grid
 
 [**We will use for()**](https://processing.org/reference/for.html) loops . For loops are very useful for automating an action that will have to be repeated several times.
 
@@ -224,7 +231,7 @@ for (let i = 0; i <= width; i += 100) {
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#une-grille-de-cercles)A grid of circles
+### A grid of circles
 
 We will now try to draw a grid of circles:
 
@@ -248,7 +255,7 @@ In this example our circles have a fixed size of 100 pixels. We will now make th
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-#### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#un-peu-dinteraction-changer-la-taille-des-cases)a little interaction change the size of the boxes
+#### a little interaction change the size of the boxes
 
 First of all we will need to create a variable which will be the size of each box and which will therefore correspond to the value by which we increase each variable in the for loop. This variable could for example be called "slotSize" and we will initialize it with a value of 100.
 
@@ -282,7 +289,7 @@ Note that mousePressed() is a new function which must therefore be located outsi
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)
 
-#### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#des-cercles-centres-dans-nos-cases)circles centers in our boxes
+#### circles centers in our boxes
 
 We will now make our circles centered in our boxes. We will therefore manipulate the start and stop conditions of our loops so that "i" and "j" give us the center of the boxes rather than the upper left corner.
 
@@ -314,7 +321,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)
 
-#### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#une-grille-centree-dans-notre-page)a grid centered in our page
+#### a grid centered in our page
 
 There are several options here:
 
@@ -406,9 +413,9 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)
 
-## [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#un-peu-dinteraction-avec-la-souris)A little interaction with the mouse
+## A little interaction with the mouse
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#une-grille-de-cercles-qui-changent-de-taille-en-fonction-de-la-position-de-la-souris)A grid of circles that change size depending on mouse position
+### A grid of circles that change size depending on mouse position
 
 Our next program is very simple and is based on the code seen previously, here it is:
 
@@ -481,7 +488,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#une-grille-de-cercles-concentriques)A grid of concentric circles
+### A grid of concentric circles
 
 Since the more for loops we have, the more fun we have! we are going to add a third for loop inside our two previous loops. This means that for each box drawn we will repeat the same action several times.
 
@@ -562,7 +569,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#une-grille-de-lignes-interactives)A grid of interactive lines
+### A grid of interactive lines
 
 We will now focus on making this pattern:[![Moving lines patterns](https://github.com/djsnipa1/p5js-designing-interactive-patterns/raw/master/images/moving-lines-pattern.gif)](https://github.com/djsnipa1/p5js-designing-interactive-patterns/blob/master/images/moving-lines-pattern.gif)
 
@@ -644,7 +651,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#une-grille-de-cercles-concentriques-2)A grid of concentric circles 2
+### A grid of concentric circles 2
 
 We will now combine the two previous effects: we will manipulate the position of the centers of co-centric circles to give an effect of false 3D made from real 2D
 
@@ -720,7 +727,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)
 
-## [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#ecrire-des-conditions-avec-if)Write conditions with if()
+## Write conditions with if()
 
 We will now stay on the same principle and see how a very simple rule can give us a multitude of relatively varied patterns: the principle is that in each box we will choose to draw one of the two possible diagonals.
 
@@ -821,7 +828,7 @@ else{
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#if-else-et-random---randomseed)if-else and random() - randomSeed()
+### if-else and random() - randomSeed()
 
 In our first example we will only have one simple condition to execute: we want to randomly draw one or the other of the diagonals.
 
@@ -965,7 +972,7 @@ Ainsi que le code : https://github.com/b2renger/p5js-designing-interactive-patte
 [**home**](#contenu)
 ```
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#variation-1-avec-if-imbriques)Variation 1 with nested if
+### Variation 1 with nested if
 
 As previously stated, we can also nest ifs together. For example, we could make some lines red and others white quite easily:
 
@@ -999,7 +1006,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#variation-2-avec-if---else-if)Variation 2 with if - else if
+### Variation 2 with if - else if
 
 With the use of several conditions linked together it is also relatively simple to draw in a labyrinth, and choosing to draw only one wall of each box (either the one above, or the one below, the one on the left or the one on the right):
 
@@ -1024,7 +1031,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)
 
-## [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#make-some-noise-)Make some Noise!
+## Make some Noise!
 
 We will now focus on the concept of [**noise()**](https://p5js.org/reference/%23/p5/noise)
 
@@ -1036,7 +1043,7 @@ If you have read the reference, you should understand that noise can be used in 
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-1-dimension)noise 1 dimension
+### noise 1 dimension
 
 We will start by passing only one value to our noise function, that of a time which unfolds to obtain this kind of result:
 
@@ -1083,7 +1090,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-2-dimensions)noise 2 dimensions
+### noise 2 dimensions
 
 To obtain a different result in each box we will pass a second argument to our noise.
 
@@ -1114,7 +1121,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-3-dimensions)noise 3 dimensions
+### noise 3 dimensions
 
 For this 3rd dimension we are going to change the mode of representation. Instead of calculating an offset in x and y of a point that moves leaving a trail, we will now calculate the size of a rectangle that will be drawn in each box.
 
@@ -1211,7 +1218,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-et-coordonnees-polaires)Noise and polar coordinates
+### Noise and polar coordinates
 
 [![polar noise](https://github.com/djsnipa1/p5js-designing-interactive-patterns/raw/master/images/polar-noise.gif)](https://github.com/djsnipa1/p5js-designing-interactive-patterns/blob/master/images/polar-noise.gif)
 
@@ -1272,7 +1279,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-et-symetries)Noise and symmetries
+### Noise and symmetries
 
 Noise may seem a little complicated to master, but by understanding how it works, it is possible to create symmetrical behaviors.
 
@@ -1355,7 +1362,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-symetrique-et-coordonnees-polaires)Symmetric noise and polar coordinates
+### Symmetric noise and polar coordinates
 
 In this paragraph we will combine our knowledge of polar coordinates and noise to achieve this result:
 
@@ -1542,7 +1549,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#noise-asymetrique-et-coordonnees-polaires)Asymmetric noise and polar coordinates
+### Asymmetric noise and polar coordinates
 
 Let's modify our code a little in order to have an asymmetric result:
 
@@ -1573,7 +1580,7 @@ As well as the code: [https://github.com/b2renger/p5js-designing-interactive-pat
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#interlude-unknown-pleasures)Interlude unknown pleasures
+### Interlude unknown pleasures
 
 Let's deviate a little from our usual concerns (grids and tilings) to continue a little on the notion of noise and recreate a visual close to the cover of the album "unknown pleasures" by Joydivision.
 
@@ -1688,11 +1695,11 @@ and consult the associated code: [https://github.com/b2renger/p5js-designing-int
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-## [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#rotate-translate)Rotate-translate
+## Rotate-translate
 
 We will now focus on transformations of space, that is to say the use of functions which will allow us to manipulate our coordinate system to offer us more flexibility in the way in which we can position and manipulate shapes.
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#un-exemple-basique)A basic example
+### A basic example
 
 We will try to recreate this example:
 
@@ -1821,7 +1828,7 @@ and view the associated code: [https://github.com/b2renger/p5js-designing-intera
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-### [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#utilisation-de-fonts)Using fonts
+### Using fonts
 
 We will continue in this same logic, but this time we will try to construct patterns with typography:
 
@@ -2135,7 +2142,7 @@ and you can also consult the code associated with it: [https://b2renger.github.i
 
 [**home**](https://github.com/djsnipa1/p5js-designing-interactive-patterns#contenu)  
 
-## [](https://github.com/djsnipa1/p5js-designing-interactive-patterns#dessiner-dans-des-calques)Drawing in layers
+## Drawing in layers
 
 For several reasons it may be interesting to use layers. p5js allows this using what we call "offscreen graphics": it is possible to draw in an image which is not displayed and which we can display later with the [**image() function**](https://p5js.org/reference/%23/p5/image) function .
 
